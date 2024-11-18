@@ -13,7 +13,7 @@ It will now ask you for a youtube playlist url, provide one and press enter.
 
 All the videos as ``mp3`` files will now be downloaded into ``music/``
 
-You can alternativelly run the script with the argument ``-ignore`` to ignore all errors and keep iterating the playlist:
+You can alternativelly run the script with the argument ``-ignore`` to ignore all errors and keep iterating the playlist automatically without having to do any input:
 ```
 python3 main.py -ignore
 ```
