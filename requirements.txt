@@ -1,0 +1,2 @@
+pytubefix==8.5.1
+colorama==0.4.6
