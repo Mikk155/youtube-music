@@ -39,7 +39,7 @@ while True:
 
                         try:
 
-                            print( '{}{} Downloading \"{}{}{}\"n'.format( Back.WHITE, Fore.BLACK, Fore.RED, video_obj.title, Fore.BLACK ) );
+                            print( '{}{} Downloading \"{}{}{}\"\n'.format( Back.WHITE, Fore.BLACK, Fore.RED, video_obj.title, Fore.BLACK ) );
 
                             streams = video_obj.streams
                             
