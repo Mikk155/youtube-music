@@ -39,8 +39,6 @@ while True:
 
                         try:
 
-                            print( '{}{} Downloading \"{}{}{}\"\n'.format( Back.WHITE, Fore.BLACK, Fore.RED, video_obj.title, Fore.BLACK ) );
-
                             streams = video_obj.streams
                             
                             video = streams.filter( only_audio=True ).first();
@@ -56,6 +54,8 @@ while True:
                                 os.rename(out_file, new_file) 
 
                             input_yn = 'n';
+
+                            print( '{}{} Downloading \"{}{}{}\"\n'.format( Back.WHITE, Fore.BLACK, Fore.RED, video_obj.title, Fore.BLACK ) );
 
                         except Exception as e:
 
@@ -73,6 +73,7 @@ while True:
                             else:
 
                                 input_yn = input( '{}{} Invalid video or connection issue. Try again? y/n.\nDetails: {}{}\n'.format( Back.WHITE, Fore.BLACK, Fore.RED, e ) );
+                break;
 
         except Exception as e:
 
