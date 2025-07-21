@@ -1,3 +1,6 @@
+# NOTE:
+This is deprecated and has been moved out to [youtube-music2](https://github.com/Mikk155/youtube-music2) using C# instead.
+
 # youtube-music
  Python script for downloading music from a youtube playlist
 
